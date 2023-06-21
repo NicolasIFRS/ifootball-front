@@ -1,1 +1,61 @@
-@import '../../config/global.scss'
+@import '../../config/global.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+
+}
+
+
+header{
+    background-color: rgb(17, 75, 15);
+    color: #fff;
+    text-align: center; 
+    padding: 20px;
+    margin: 0px;
+}
+
+.menu{
+    font-family: 'Roboto';
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu-responsive{
+    display: block;
+    width: 100%;
+}
+
+.box{
+    text-align: center;
+}
+
+.info-box{
+    background-color: rgb(113, 146, 113);
+    padding: 20px;
+    border: solid black 2px;
+}
+
+.team-boss-class{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.team-block{
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(153, 197, 153);
+    max-width: 20em;
+    padding: 1em;
+}
